@@ -1,0 +1,34 @@
+.signUp {
+	padding: 1.5rem;
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	h2 {
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 400;
+	}
+
+	label {
+		color: black;
+	}
+	.btn {
+		margin-top: 1rem;
+	}
+
+	.error {
+		border: 2px solid red;
+	}
+	.valid {
+		border: 2px solid green;
+	}
+}
+.login {
+	max-width: 500px;
+	margin: auto;
+	margin-top: 5rem;
+	padding: 1.5rem;
+	h2 {
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 400;
+	}
+}

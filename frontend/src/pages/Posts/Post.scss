@@ -1,0 +1,102 @@
+.police {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 300;
+}
+.card {
+	border: 2px solid black;
+	img {
+		border-radius: 40px;
+		width: 200px;
+		height: 200px;
+	}
+	.badge {
+		font-size: 1.3rem;
+	}
+	.seePost:hover {
+		cursor: pointer;
+	}
+	.delete {
+		margin-right: 80%;
+	}
+	margin-top: 5rem;
+	border-radius: 40px;
+	border-color: black;
+}
+.card-footer {
+	background-color: white;
+	margin-bottom: 5rem;
+	padding: none;
+	border-color: black;
+	border: 2px solid black;
+}
+.card-footer:last-child {
+	border-radius: 40px;
+}
+
+.post {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+	border-radius: 40px;
+	margin-top: 50px;
+	h3 {
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 400;
+	}
+	p {
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 200;
+	}
+	.text-primary {
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 400;
+		font-weight: bold;
+	}
+}
+
+.postform {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 300;
+	max-width: 750px;
+	display: flex;
+	margin: 3rem auto 0 auto;
+	border-radius: 40px;
+	#title {
+		border-radius: 40px;
+	}
+	#attachment {
+		border: none;
+	}
+	textarea {
+		margin-bottom: 1.5rem;
+		border-radius: 40px;
+	}
+	.card-header {
+		border-bottom: none;
+		background-color: white;
+		border-radius: 40px;
+	}
+	.btn {
+		margin-top: 1.5rem;
+		border-radius: 40px;
+	}
+	input#file-upload-button {
+		content: null;
+	}
+}
+.icon:focus {
+	border: 1px solid #d1515a;
+}
+.icon:hover {
+	cursor: pointer;
+	color: #d1515a;
+}
+.btn {
+	margin: none !important;
+}
+body {
+	background-image:url(https://maayinsurance.ch/wp-content/uploads/elementor/thumbs/justin-main-srDN5nHM35g-unsplash-om90hth52t1u0j6e6oxaax19bdij3680hnw8dkpjr8.jpg) ;
+	background-repeat: no-repeat;
+	background-size:cover;	
+}
+
+

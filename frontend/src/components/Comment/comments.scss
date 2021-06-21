@@ -1,0 +1,24 @@
+.comment {
+	background-color: #d1515a;
+	border-radius: 2%;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	.comment-header {
+		display: flex;
+		justify-content: space-between;
+		.avatarCom {
+			height: 30px;
+			width: 30px;
+		}
+	}
+	.comment-body {
+		justify-content: center;
+		background-color: #d1515a;
+	}
+}
+.toast {
+	opacity: 1;
+	width: 100%;
+}

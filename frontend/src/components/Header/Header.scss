@@ -1,0 +1,45 @@
+header {
+	background-color: #f2f2f2;
+	box-shadow: 4px 4px 2px 4px black;
+	width: 100%;
+
+	ul {
+		display: flex;
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		padding-left: 5rem;
+	}
+	a {
+		font-size: large;
+		color: black;
+	}
+	a:hover {
+		color: #d1515a;
+		text-decoration: none;
+	}
+
+	.btn-warning {
+		margin-top: 1rem;
+		background-color: black !important;
+		color:white;
+		border-color: black;
+	}
+	.btn-warning:hover {
+		background-color: #d1515a !important;
+	}
+
+	.btn-success:hover {
+		background-color: green;
+	}
+}
+.alert {
+	position: fixed;
+	width: 100%;
+}
+
+#navbarNav {
+	justify-content: flex-end;
+}

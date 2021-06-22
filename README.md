@@ -17,5 +17,8 @@ puis npm start
 
 4) créer localement la base de donnée « groupomania_creation » grâce au logiciel MySQL .
 
+5)Pour créer une base de données, tapez la commande suivante. 
+CREATE DATABASE groupomania_creation  ;
+
 5) Ensuite importez le fichier groupomania.sql dans votre base de donnée Mysql pour créer les tables. 
     
